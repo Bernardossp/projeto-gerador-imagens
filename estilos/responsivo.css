@@ -1,0 +1,62 @@
+.central{
+   text-align: center;
+   margin-left: -10px;
+   margin-right: -10px;
+   
+}
+.Explicação{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+a{
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.gerador{
+    text-align: center;
+    margin-top: 200px;
+}
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    max-width: 1440;
+    justify-content: center;
+}
+.img-hover{
+    filter: blur(0);
+    transition: filter 0.3s;
+}
+.img-hover:hover{
+    filter: blur(2px);
+}
+#h2-galeria{
+    text-align: center;
+}
+.form{
+    text-align: center;
+    padding: 150px;
+}
+.imagem-gerada {
+    margin-top: 2rem;
+    border: 2px dashed #ccc;
+    padding: 2rem;
+    border-radius: 11px;
+    text-align: center;
+}
